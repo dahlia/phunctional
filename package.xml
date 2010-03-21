@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.5.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Phunctional</name>
+ <channel>pear.phunctional.dahlia.kr</channel>
+ <summary>A general purpose framework for functional programming in PHP
+ </summary>
+ <description>A general purpose framework for functional programming in PHP.
+It is inspired by C++ STL(polymorphism between new and legacy style in the same language), CommonLisp and CLOS(generic method, lambda: function as value), Python(generator: lazy evaluated sequence).
+ </description>
+ <lead>
+  <name>Hong, MinHee</name>
+  <user>dahlia</user>
+  <email>minhee@dahlia.pe.kr</email>
+  <active>yes</active>
+ </lead>
+ <developer>
+  <name>Lee, Heungsub</name>
+  <user>heungsub</user>
+  <email>lee@heungsub.net</email>
+  <active>yes</active>
+ </developer>
+ <date>2008-07-18</date>
+ <time>00:54:56</time>
+ <version>
+  <release>0.9.1</release>
+  <api>0.9.1</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.gnu.org/licenses/lgpl.html">LGPL</license>
+ <notes>Released Phunctional 0.9.1.</notes>
+ <contents>
+  <dir baseinstalldir="." name="/">
+   <file baseinstalldir="." md5sum="f4634aca8fa180416c89c1c77ffc9f51" name="NaturalDocs/Menu.txt" role="data" />
+   <file baseinstalldir="." md5sum="cd893a0980c2ec0ff11c7980d07739b1" name="Phunctional/Binding.php" role="php" />
+   <file baseinstalldir="." md5sum="d47390da0e19dfe5d393b10eeaaf584d" name="Phunctional/Combination.php" role="php" />
+   <file baseinstalldir="." md5sum="e9aad563f7ad3a55f5170a9745700418" name="Phunctional/CompositeFunction.php" role="php" />
+   <file baseinstalldir="." md5sum="6a389a06614f94dddb149071ad1b4cfc" name="Phunctional/Currying.php" role="php" />
+   <file baseinstalldir="." md5sum="f6f9676594bd9c92ae4c73201d76ea7e" name="Phunctional/EventHandler.php" role="php" />
+   <file baseinstalldir="." md5sum="17963cab42321d3e2b5704a4f807b205" name="Phunctional/Filter.php" role="php" />
+   <file baseinstalldir="." md5sum="8b34bd17d5fc338bf70e06966257bf8d" name="Phunctional/Filterable.php" role="php" />
+   <file baseinstalldir="." md5sum="22376ca78379bdf7d79c7a7305a4d57f" name="Phunctional/FunctionArray.php" role="php" />
+   <file baseinstalldir="." md5sum="b27e11e59ebe182a8940b00fb8f9abf9" name="Phunctional/Functor.php" role="php" />
+   <file baseinstalldir="." md5sum="097e12223850d5af8b680cfe8f542ef0" name="Phunctional/Injectable.php" role="php" />
+   <file baseinstalldir="." md5sum="fda0ab7d826fbd8c549cbe0dbc77602b" name="Phunctional/iterator-utils.php" role="php" />
+   <file baseinstalldir="." md5sum="f073d6ac006b74839849ed059a754824" name="Phunctional/Iterator.php" role="php" />
+   <file baseinstalldir="." md5sum="794d4d7d960810bc8035da38a61c6070" name="Phunctional/KeyIterator.php" role="php" />
+   <file baseinstalldir="." md5sum="513068ec45f3df457eb1f0030f5168b4" name="Phunctional/Lambda.php" role="php" />
+   <file baseinstalldir="." md5sum="268d4051f0b1e6ea280720a6083b4add" name="Phunctional/LanguageConstruct.php" role="php" />
+   <file baseinstalldir="." md5sum="d29fa9a783d7b4a55d5fd1d6660b23cb" name="Phunctional/Mappable.php" role="php" />
+   <file baseinstalldir="." md5sum="c7bfe8839bd44008e6698aded0d8b1d6" name="Phunctional/PaddingIterator.php" role="php" />
+   <file baseinstalldir="." md5sum="af86b0d8dad0c5b60d1e70733632a532" name="Phunctional/PartialApplication.php" role="php" />
+   <file baseinstalldir="." md5sum="dfbc907130daa9c6b3bcc1d794e3f59c" name="Phunctional/Range.php" role="php" />
+   <file baseinstalldir="." md5sum="b1b4cf70d2aba31887e979a91521cdfd" name="Phunctional/RawLambda.php" role="php" />
+   <file baseinstalldir="." md5sum="f501a52622f52a343d1462f48e84a1f5" name="Phunctional/Reversible.php" role="php" />
+   <file baseinstalldir="." md5sum="6eb1500d65330ce146949bf8b24a6b86" name="Phunctional/Set.php" role="php" />
+   <file baseinstalldir="." md5sum="40bcfa84ecb08b0908dab3d1bded74e4" name="Phunctional/shortcuts.php" role="php" />
+   <file baseinstalldir="." md5sum="f088bfc9ced0edac63f913477b3e04db" name="Phunctional/StringIterator.php" role="php" />
+   <file baseinstalldir="." md5sum="d47b9c43257cea927c3b9d3acb78fbab" name="Phunctional/Transformation.php" role="php" />
+   <file baseinstalldir="." md5sum="803dcdc5cb4f2ae3411dd56ea9e5260e" name="Phunctional/types.php" role="php" />
+   <file baseinstalldir="." md5sum="c69c8377a3b569647087596a91b356f8" name="Phunctional/Zip.php" role="php" />
+   <file baseinstalldir="." md5sum="452117cfa2dfa7d2df3ac0b21350ff50" name="Phunctional/iterator-utils/all.php" role="php" />
+   <file baseinstalldir="." md5sum="d89f7d4f001d8c8fb323beaf44ed9d1f" name="Phunctional/iterator-utils/any.php" role="php" />
+   <file baseinstalldir="." md5sum="d0738f2ff255a51fce7035062b1cda54" name="Phunctional/iterator-utils/at.php" role="php" />
+   <file baseinstalldir="." md5sum="31ff14b70f7d14b859d418e2a64783a5" name="Phunctional/iterator-utils/compare.php" role="php" />
+   <file baseinstalldir="." md5sum="60021417520079d82a22b1cb6babb43e" name="Phunctional/iterator-utils/contains.php" role="php" />
+   <file baseinstalldir="." md5sum="fe7685ee24455cd9ef27cc571fee9cb9" name="Phunctional/iterator-utils/count_if.php" role="php" />
+   <file baseinstalldir="." md5sum="380bbc466673a544579ecc9a256be3b4" name="Phunctional/iterator-utils/detect.php" role="php" />
+   <file baseinstalldir="." md5sum="f47ef1dffb55bde7f25db125123ad311" name="Phunctional/iterator-utils/detect_element.php" role="php" />
+   <file baseinstalldir="." md5sum="a88e3f302eb329afdd0b4f291cebcc5e" name="Phunctional/iterator-utils/divide.php" role="php" />
+   <file baseinstalldir="." md5sum="1d9590141f544ac6c3c6ee917d9d2f30" name="Phunctional/iterator-utils/except_from.php" role="php" />
+   <file baseinstalldir="." md5sum="7404c62c53d35859d6eb5a376104edc4" name="Phunctional/iterator-utils/groupby.php" role="php" />
+   <file baseinstalldir="." md5sum="ac1b52559b7dffd88ac5de0d33ff02d8" name="Phunctional/iterator-utils/max_element.php" role="php" />
+   <file baseinstalldir="." md5sum="364c6293c1277e140f8643887e2e7167" name="Phunctional/iterator-utils/merge.php" role="php" />
+   <file baseinstalldir="." md5sum="571c35a29fec285d9eb9e16dcaf18d4c" name="Phunctional/iterator-utils/min_element.php" role="php" />
+   <file baseinstalldir="." md5sum="c3ab26dc79341bdfeb131fe28111e8f5" name="Phunctional/iterator-utils/product.php" role="php" />
+   <file baseinstalldir="." md5sum="6bbe3bd85e2196db9a5fa0638331e8e2" name="Phunctional/iterator-utils/reduce.php" role="php" />
+   <file baseinstalldir="." md5sum="1eacf7afe652fdfd6d1bc61767a2c8d8" name="Phunctional/iterator-utils/reversed.php" role="php" />
+   <file baseinstalldir="." md5sum="b5678bad3e408ab2b6c4d3fb99d18ffb" name="Phunctional/iterator-utils/slice.php" role="php" />
+   <file baseinstalldir="." md5sum="1a221ba701ae43a0b74b5b0315293803" name="Phunctional/iterator-utils/sorted.php" role="php" />
+   <file baseinstalldir="." md5sum="e0e7aa8b71df2054b1458f76e8e38454" name="Phunctional/iterator-utils/sorted_by_key.php" role="php" />
+   <file baseinstalldir="." md5sum="148728d8ba6f487c42e7bef7bbf7470e" name="Phunctional/iterator-utils/sum.php" role="php" />
+   <file baseinstalldir="." md5sum="7d075c4085ff797e1b8ccc56bbb2d48b" name="Phunctional/iterator-utils/to_array.php" role="php" />
+   <file baseinstalldir="." md5sum="ea7a5d58623c93750bf81cb6ac778575" name="Phunctional/iterator-utils/to_str.php" role="php" />
+   <file baseinstalldir="." md5sum="279dbc5de469a7acbb597973f59a87ca" name="tests/AllTests.php" role="test" />
+   <file baseinstalldir="." md5sum="557df91d55da075b23d5be2f5f6786d4" name="tests/ArrayAccessorTest.php" role="test" />
+   <file baseinstalldir="." md5sum="f491f616e4c57df8315a1cc338c01aee" name="tests/BinaryOperatorTest.php" role="test" />
+   <file baseinstalldir="." md5sum="974a5ea0fe2cd74077a61c4c175bc92e" name="tests/BindingTest.php" role="test" />
+   <file baseinstalldir="." md5sum="af893cc02b2174e1e2da8c90798197dc" name="tests/CallbackTest.php" role="test" />
+   <file baseinstalldir="." md5sum="8cf8b2b17f1c6d08cbb7f3baa66f6d12" name="tests/CombinationTest.php" role="test" />
+   <file baseinstalldir="." md5sum="578eee4502044061271636f6563bb4f5" name="tests/CompositeFunctionTest.php" role="test" />
+   <file baseinstalldir="." md5sum="8201d9ea2b8a15e1914fee53b6d7f3d0" name="tests/ConstantFunctionTest.php" role="test" />
+   <file baseinstalldir="." md5sum="ee1a51d45081c444a48f7d7f0ee41f0e" name="tests/CurryingTest.php" role="test" />
+   <file baseinstalldir="." md5sum="fd7a5c722e8a22c0d3f0f007e18af5f6" name="tests/EventHandlerTest.php" role="test" />
+   <file baseinstalldir="." md5sum="9052e1a8df500dea21a4554c68de541a" name="tests/FilterTest.php" role="test" />
+   <file baseinstalldir="." md5sum="be05a1d5b5dd429fefa9889c3bf6d11a" name="tests/FunctionArrayTest.php" role="test" />
+   <file baseinstalldir="." md5sum="a13888b29f96a6f9eeb6755afae434cd" name="tests/FunctorTest.php" role="test" />
+   <file baseinstalldir="." md5sum="c9e560a1cd63bcf2fd837d3a0a2ad250" name="tests/HasFunctorTest.php" role="test" />
+   <file baseinstalldir="." md5sum="e6bad073aea12790bffccd6ee087a28b" name="tests/IdentityFunctionTest.php" role="test" />
+   <file baseinstalldir="." md5sum="d402aab0624a5c2ae5984fb7d39132dc" name="tests/InstantiationTest.php" role="test" />
+   <file baseinstalldir="." md5sum="8c5973883bedb6750678676782a12e12" name="tests/IteratorAggregateIteratorTest.php" role="test" />
+   <file baseinstalldir="." md5sum="9f1715cd37e84c4e3f7ea10faf3ac966" name="tests/IteratorTest.php" role="test" />
+   <file baseinstalldir="." md5sum="6ef01189ef0366142a20bd7da201f6e8" name="tests/IteratorUtilitiesTest.php" role="test" />
+   <file baseinstalldir="." md5sum="72001bd66cf1ffa82a6da8df77cbfa2d" name="tests/KeyIteratorTest.php" role="test" />
+   <file baseinstalldir="." md5sum="1370e96ab42ced2a6943d7a34c793b04" name="tests/LambdaTest.php" role="test" />
+   <file baseinstalldir="." md5sum="f3c8ec09572c810a9844485667bae5a0" name="tests/LanguageConstructTest.php" role="test" />
+   <file baseinstalldir="." md5sum="5ee3f99978715c7d03a2d9f4f682e1a4" name="tests/MemberAccessorTest.php" role="test" />
+   <file baseinstalldir="." md5sum="139bb2b74cda44e2fa326ae38f699fc8" name="tests/MethodAccessorTest.php" role="test" />
+   <file baseinstalldir="." md5sum="f806293ca4c866ed01e8ef5eddf48b72" name="tests/MethodInvokerTest.php" role="test" />
+   <file baseinstalldir="." md5sum="a27aa4da02d445c4d7f620b455de5b90" name="tests/MinusOperatorTest.php" role="test" />
+   <file baseinstalldir="." md5sum="bb5e9299f789978760554a53ded6e1e9" name="tests/OperatorTest.php" role="test" />
+   <file baseinstalldir="." md5sum="0cde01036d8852d63bbce898ae0c67f4" name="tests/PaddingIteratorTest.php" role="test" />
+   <file baseinstalldir="." md5sum="4d3cca0934b2efaa6749683c44b4d751" name="tests/PartialApplicationTest.php" role="test" />
+   <file baseinstalldir="." md5sum="dcd94ed5e30205795a00004c40709624" name="tests/RangeTest.php" role="test" />
+   <file baseinstalldir="." md5sum="09b46aa6213840d993d6d85457268ef0" name="tests/RawLambdaTest.php" role="test" />
+   <file baseinstalldir="." md5sum="6de5c1ed356829d272d347ded37a6d0d" name="tests/SequenceTestCase.php" role="test" />
+   <file baseinstalldir="." md5sum="7219ea03ebdccb915f9d16e692d52ea5" name="tests/SetTest.php" role="test" />
+   <file baseinstalldir="." md5sum="3a299ff5bcc451ad740e7d203d799812" name="tests/StringIteratorTest.php" role="test" />
+   <file baseinstalldir="." md5sum="d21e0258cda736497327eb34196c3546" name="tests/TransformationTest.php" role="test" />
+   <file baseinstalldir="." md5sum="6268f9905cf883535c74f9d558f7ffaa" name="tests/TypesTest.php" role="test" />
+   <file baseinstalldir="." md5sum="9a31859a785b15b8bb690f29b12962ce" name="tests/UnaryOperatorTest.php" role="test" />
+   <file baseinstalldir="." md5sum="1d551a5bdb2a0b954b2c49d5b05357a2" name="tests/ZipTest.php" role="test" />
+   <file baseinstalldir="." md5sum="ce5b9da0ff16863a5b97f114ed6375e0" name="tests/_LambdaGlobalClosureTest.php" role="test" />
+   <file baseinstalldir="." md5sum="32fe1abeab5b1d2b20dd152bdc0d526e" name="bitten.xml" role="data" />
+   <file baseinstalldir="." md5sum="5f8811c3d977405abda9626774eda2c9" name="Phunctional.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+   <extension>
+    <name>spl</name>
+   </extension>
+   <extension>
+    <name>pcre</name>
+   </extension>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.9.0</release>
+    <api>0.9.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2008-01-27</date>
+   <license uri="http://www.gnu.org/licenses/lgpl.html">LGPL</license>
+   <notes>Released Phunctional 0.9.0.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.9.1</release>
+    <api>0.9.1</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2008-07-18</date>
+   <license uri="http://www.gnu.org/licenses/lgpl.html">LGPL</license>
+   <notes>Released Phunctional 0.9.1.</notes>
+  </release>
+ </changelog>
+</package>

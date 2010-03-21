@@ -1,0 +1,104 @@
+Format: 1.35
+
+
+Title: Phunctional
+SubTitle: Functional Programming in PHP
+
+# You can add a footer to your documentation like this:
+# Footer: [text]
+# If you want to add a copyright notice, this would be the place to do it.
+
+# These are indexes you deleted, so Natural Docs will not add them again
+# unless you remove them from this line.
+
+Don't Index: Database Indexes
+
+
+# --------------------------------------------------------------------------
+# 
+# Cut and paste the lines below to change the order in which your files
+# appear on the menu.  Don't worry about adding or removing files, Natural
+# Docs will take care of that.
+# 
+# You can further organize the menu by grouping the entries.  Add a
+# "Group: [name] {" line to start a group, and add a "}" to end it.
+# 
+# You can add text and web links to the menu by adding "Text: [text]" and
+# "Link: [name] ([URL])" lines, respectively.
+# 
+# The formatting and comments are auto-generated, so don't worry about
+# neatness when editing the file.  Natural Docs will clean it up the next
+# time it is run.  When working with groups, just deal with the braces and
+# forget about the indentation and comments.
+# 
+# --------------------------------------------------------------------------
+
+
+File: Phunctional  (Phunctional.php)
+
+Group: Core  {
+
+   File: Functor  (Phunctional/Functor.php)
+   File: PartialApplication  (Phunctional/PartialApplication.php)
+   File: CompositeFunction  (Phunctional/CompositeFunction.php)
+   File: LanguageConstruct  (Phunctional/LanguageConstruct.php)
+   File: RawLambda  (Phunctional/RawLambda.php)
+   File: Iterator  (Phunctional/Iterator.php)
+   File: StringIterator  (Phunctional/StringIterator.php)
+   }  # Group: Core
+
+Group: Functional  {
+
+   File: Functor  (Phunctional/Functor.php)
+   File: PartialApplication  (Phunctional/PartialApplication.php)
+   File: CompositeFunction  (Phunctional/CompositeFunction.php)
+   File: LanguageConstruct  (Phunctional/LanguageConstruct.php)
+   File: RawLambda  (Phunctional/RawLambda.php)
+   File: Lambda  (Phunctional/Lambda.php)
+   File: EventHandler  (Phunctional/EventHandler.php)
+   File: FunctionArray  (Phunctional/FunctionArray.php)
+   }  # Group: Functional
+
+Group: Iterator  {
+
+   File: Iterator  (Phunctional/Iterator.php)
+   File: StringIterator  (Phunctional/StringIterator.php)
+   File: Transformation  (Phunctional/Transformation.php)
+   File: Mappable  (Phunctional/Mappable.php)
+   File: Filter  (Phunctional/Filter.php)
+   File: Filterable  (Phunctional/Filterable.php)
+   File: Range  (Phunctional/Range.php)
+   File: Zip  (Phunctional/Zip.php)
+   File: Combination  (Phunctional/Combination.php)
+   File: FunctionArray  (Phunctional/FunctionArray.php)
+   File: Set  (Phunctional/Set.php)
+   File: KeyIterator  (Phunctional/KeyIterator.php)
+   File: PaddingIterator  (Phunctional/PaddingIterator.php)
+   File: Iterator Utilities  (Phunctional/iterator-utils.php)
+   File: Reversible  (Phunctional/Reversible.php)
+   File: Injectable  (Phunctional/Injectable.php)
+   }  # Group: Iterator
+
+Group: Shortcut  {
+
+   File: Types  (Phunctional/types.php)
+   File: Iterator Utilities  (Phunctional/iterator-utils.php)
+   File: Shortcuts  (Phunctional/shortcuts.php)
+   }  # Group: Shortcut
+
+Group: Deprecated  {
+
+   File: Currying  (Phunctional/Currying.php)
+   File: Binding  (Phunctional/Binding.php)
+   }  # Group: Deprecated
+
+Group: Index  {
+
+   Index: Everything
+   Constant Index: Constants
+   Interface Index: Interfaces
+   Class Index: Classes
+   Function Index: Functions
+   Property Index: Members
+   }  # Group: Index
+
